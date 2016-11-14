@@ -1,0 +1,16 @@
+Package: cognitiveR
+Type: Package
+Title: R Package of Microsoft Cognitive API
+Version: 0.0.1
+Author: Chia-Chi Chang
+Maintainer: Chia-Chi Chang <chiachi@data-sci.info>
+Description: R Package of Microsoft Cognitive API
+Encoding: UTF-8
+License: MIT
+LazyData: true
+Depends:
+    httr,
+    magrittr,
+    rjson,
+    uuid
+RoxygenNote: 5.0.1
