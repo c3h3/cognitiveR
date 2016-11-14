@@ -1,3 +1,7 @@
+# install.packages(c("devtools"))
+library(devtools)
+install_github("c3h3/cognitiveR")
+
 library(cognitiveR)
 
 apiKey = ""
