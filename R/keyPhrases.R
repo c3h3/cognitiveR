@@ -54,7 +54,7 @@ keyPhrases.getKeyPhrases = function(apiKey, ...){
 
   resData = res %>% content()
   resData$postBody = postBody
-  resData$postBodyDf = data.frame(do.call(rbind,rjson::fromJSON(postBody)))
+  # resData$postBodyDf = data.frame(do.call(rbind,rjson::fromJSON(postBody)))
   return(resData)
 }
 
