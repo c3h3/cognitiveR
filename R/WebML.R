@@ -10,8 +10,7 @@ webML.lsModels = function(apiKey){
   headers = add_headers('Content-Type'='application/json',
                         'Ocp-Apim-Subscription-Key' = apiKey)
 
-  res = GET("https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment",
-            headers)
+  res = GET("https://api.projectoxford.ai/text/weblm/v1.0/models", headers)
 
   resData = res %>% content()
   return(resData)
